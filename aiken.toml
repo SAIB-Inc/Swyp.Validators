@@ -1,0 +1,21 @@
+name = "swyp/contracts"
+version = "0.0.0"
+compiler = "v1.1.6"
+plutus = "v3"
+license = "Apache-2.0"
+description = "Aiken contracts for project 'swyp/contracts'"
+
+[repository]
+user = "swyp"
+project = "contracts"
+platform = "github"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "v2.1.0"
+source = "github"
+
+[[dependencies]]
+name = "sundaeswap-finance/aicone"
+version = "504e1049abefdaf40f294a1b94a57d236717abc6"
+source = "github"
